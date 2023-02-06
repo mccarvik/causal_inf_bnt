@@ -1,0 +1,6 @@
+digraph {
+	T -> Y
+	X -> Y
+	X -> "P(x)"
+	"P(x)" -> T
+}
