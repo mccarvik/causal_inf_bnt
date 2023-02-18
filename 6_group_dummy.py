@@ -121,7 +121,7 @@ plt.scatter(wage["educ"], wage["hwage"])
 plt.plot(wage["educ"].sort_values(), model_dummy.predict(wage["educ"].sort_values()), c="C1")
 plt.xlabel("Years of Education")
 plt.ylabel("Hourly Wage");
-plt.savefig("all_dummies.png")
+plt.savefig(png_path+"all_dummies.png")
 plt.close()
 
 # this removes any assumption about the functional form of how education affects wages. 
